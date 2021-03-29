@@ -1,0 +1,61 @@
+#features {
+  background-color: $white_color;
+}
+#details {
+  background-color: $white_color;
+}
+#customize {
+  background-color: $secondary_color;
+  overflow: hidden;
+}
+#comments {
+  background-image: url(../img/testemonials.png);
+  img {
+    display: inline;
+  }
+  h2 {
+    color: $white_color;
+  }
+  h4 {
+    color: $white_color;
+  }
+
+}
+#eye_catcher {
+  background-color: #15141a;
+  h2 {
+    color: $white_color;
+  }
+  .secondary_font_col {
+    color: $primary_font_color;
+  }
+  button {
+    color: $white_color;
+    background-color: $black_color;
+    border: 1px solid $white_color;
+    outline: none;
+    &:hover, &:focus, &:focus-within {
+      color: $white_color;
+      background-color: $primary_color;
+      border: none;
+    }
+  }
+}
+#pricing {
+  background-color: #FFF;
+}
+#contact {
+  background-color: #ededed;
+  .form_construct {
+    background-color: $black_color;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

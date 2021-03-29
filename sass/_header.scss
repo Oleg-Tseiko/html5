@@ -1,0 +1,29 @@
+header {
+  background-image: url(../img/header.png);
+  nav {
+    .nav_grid {
+      justify-content: flex-end;
+    }
+  }
+  h2 {
+    color: $white_color;
+  }
+  button {
+    color: $white_color;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid $white_color;
+  }
+  .block_to_center {
+    display: flex;
+  }
+  .center_block {
+    margin: auto 0;
+  }
+  .nav-item .nav-link {
+    color: #fffefe!important;
+    &:hover, &:focus {
+      color: #fffefe!important;
+    }
+  }
+}
