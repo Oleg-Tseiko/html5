@@ -10,15 +10,10 @@ h3 {
   font-weight: 700;
   text-transform: uppercase;
 }
-.contain_menu {
-  max-width: 1170px;
-  display: flex;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 .contain {
   display: block;
   margin: 0 auto;
+  overflow: hidden;
 }
 ul, p {
   padding: 0;
@@ -34,6 +29,8 @@ button {
   text-transform: uppercase;
   outline: none;
   border-radius: 2px;
+  padding: 10px 15px;
+  border: 1px solid #e0e0e0;
   &:hover, &:focus, &:focus-within {
     color: $white_color;
     background-color: $primary_color;
@@ -45,4 +42,32 @@ button {
 }
 .owl-carousel .owl-item img {
     width: initial;
+}
+.lines_group hr {
+  width: 20px;
+  border: 0;
+  border-top: 2px solid $primary_color;
+  background-color: $primary_color;
+  display: inline-block;
+  border-radius: 0;
+  &:nth-child(2) {
+    margin-left: -1px;
+  }
+}
+a {
+  &:hover, &focus {
+    text-decoration: none;
+  }
+}
+.center_block {
+  margin: auto 0;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.86);
+}
+.overlay_second {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.no-gutters {
+  padding: 0;
 }

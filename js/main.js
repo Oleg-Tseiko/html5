@@ -1,14 +1,25 @@
 $("#comments .owl-carousel").owlCarousel({
-    margin: 0,
+    margin: 26,
     items: 2,
     dots: true,
     nav: false,
-    loop: true,
+    loop: false,
   autoplay:true,
   autoplayTimeout:10000,
   autoplayHoverPause:true,
   animateIn: "fadeIn",
   animateOut: "fadeOut",
+  responsive : {
+    // breakpoint from 0 up
+    0 : {
+        items: 1,
+        margin: 0
+    },
+    768 : {
+        items: 2,
+        margin: 26
+    }
+  }
 });
 // $("#send_form").click(function() {
 //   let fname= $(".main_form__fname").val();
